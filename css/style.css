@@ -173,25 +173,6 @@
     }
 
 
-    .hampop {
-        max-width: 100%;
-        flex: 0 0 100%;
-    }
-
-    .hampop .modal-dialog {
-        margin: 0 0;
-        padding: 0px 0px;
-
-        max-width: 50%;
-        flex: 0 0 100%;
-    }
-
-
-    .hampop .modal-content {
-        border-radius: 0px;
-        background-color: rgb(255, 238, 205);
-    }
-
 
     .heartpop {
         max-width: 100%;
@@ -230,6 +211,51 @@
         background-color: orange;
         border: none;
     }
+
+    /* home hamburger icon */
+
+
+    .hampop {
+        max-width: 100%;
+        flex: 0 0 100%;
+        height: 100vh;
+    }
+
+    .hampop .modal-dialog {
+        margin: 0 0;
+        padding: 0px 0px;
+
+        max-width: 40%;
+        flex: 0 0 100%;
+        height: 100%;
+    }
+
+
+    .hampop .modal-content {
+        border-radius: 0px;
+        background-color: rgb(255, 238, 205);
+        height: 100%;
+    }
+
+    .hamburger-logo{
+        font-size: 40px;
+        font-weight: 800;
+        color: orange;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .hamburger-icon-options-nav-btn{
+        width: 30%;
+        height: 30px;
+        margin-left: 16px;
+        border: none;
+        background-color: orange;
+        border-radius: 10px;
+        color: white;
+        margin-top: 20px;
+    }
+
 
     
 
