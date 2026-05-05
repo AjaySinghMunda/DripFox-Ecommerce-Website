@@ -359,12 +359,43 @@
             });
         });
 
-        window.onload = () =>{
-            openWindow(".hamburger-icon-options-body-row-sneakers");
-        };
 
+        $(document).ready(function () {
 
+            $(".hamburger-icon-options-nav-btn-sneakers").addClass("hamburger-icon-options-nav-btn-clicked");
 
+            $(".hamburger-icon-options-nav-btn-men").click(function (){
+                $(".hamburger-icon-options-nav-btn-men").addClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-women").removeClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-sneakers").removeClass("hamburger-icon-options-nav-btn-clicked");
+
+                $(".hamburger-icon-options-body-row-men").show();
+                $(".hamburger-icon-options-body-row-women").hide();
+                $(".hamburger-icon-options-body-row-sneakers").hide();
+            });
+
+            $(".hamburger-icon-options-nav-btn-women").click(function (){
+                $(".hamburger-icon-options-nav-btn-women").addClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-men").removeClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-sneakers").removeClass("hamburger-icon-options-nav-btn-clicked");
+
+                $(".hamburger-icon-options-body-row-men").hide();
+                $(".hamburger-icon-options-body-row-women").show();
+                $(".hamburger-icon-options-body-row-sneakers").hide();
+            });
+
+            $(".hamburger-icon-options-nav-btn-sneakers").click(function (){
+                $(".hamburger-icon-options-nav-btn-sneakers").addClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-women").removeClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-men").removeClass("hamburger-icon-options-nav-btn-clicked");
+
+                $(".hamburger-icon-options-body-row-men").hide();
+                $(".hamburger-icon-options-body-row-women").hide();
+                $(".hamburger-icon-options-body-row-sneakers").show();
+            });
+
+        });
+ 
 
 
 
