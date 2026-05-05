@@ -256,6 +256,53 @@
         margin-top: 20px;
     }
 
+    .hamburger-icon-options-body{
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px;
+        margin: 0 0;
+    }
+
+    .hamburger-icon-options-body-container{
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+        padding: 0 0;
+    }
+
+    /* hamburger icons row */
+
+    .hamburger-icon-options-body-row-men{
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+        padding: 0 0;
+
+        display:none;
+    }
+
+    .hamburger-icon-options-body-row-women{
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+        padding: 0 0;
+
+        display:none;
+    }
+
+    .hamburger-icon-options-body-row-sneakers{
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+        padding: 0 0;
+    }
+
+
+    .hamburger-icon-options-nav-btn-clicked{
+        background-color: white;
+        color: orange;
+    }
+
 
     
 
