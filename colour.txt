@@ -1,0 +1,49 @@
+Light Colours
+
+Soft Ivory : rgb(255, 248, 239)
+
+Light Peach : rgb(255, 228, 214)
+
+Sand Beige : rgb(244, 228, 200)
+
+Warm Vanilla : rgb(253, 241, 220)
+
+Pale Apricot : rgb(255, 231, 194)
+
+Soft Cream Gray : rgb(242, 238, 231)
+
+Light Caramel Tint : rgb(238, 217, 183)
+
+Dark Colours
+
+Charcoal Brown : rgb(43, 43, 43)
+
+Espresso Brown : rgb(59, 42, 31)
+
+Dark Coffee : rgb(74, 52, 40)
+
+Slate Warm Gray : rgb(75, 75, 70)
+
+Deep Burnt Orange Brown : rgb(90, 58, 34)
+
+Dark Olive Brown : rgb(64, 57, 47)
+
+Grey pairs for Orange
+
+Soft Warm Grey : rgb(107, 107, 99)
+
+Light Warm Grey : rgb(168, 163, 155)
+
+Charcoal Warm Grey : rgb(63, 63, 58)
+
+Stone Grey : rgb(125, 119, 111)
+
+Ash Grey : rgb(138, 132, 124)
+
+Deep Graphite Warm Grey : rgb(47, 47, 43)
+
+
+
+
+
+rgb(122, 106, 95)

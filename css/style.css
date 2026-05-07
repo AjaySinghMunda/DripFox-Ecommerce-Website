@@ -103,7 +103,7 @@
 
         border: 2px solid orange;
         box-shadow: none;
-        background-color: rgb(255, 238, 205);
+        background-color: rgb(253, 241, 220);
         text-align: center;
 
         color: black;
@@ -164,6 +164,9 @@
     }
 
 
+
+    /* Other Navs Start*/
+
     .desknav1024 {
         display: none;
     }
@@ -171,6 +174,8 @@
     .mobnav {
         display: none;
     }
+
+    /* Other Navs End */
 
 
 
@@ -212,6 +217,15 @@
         border: none;
     }
 
+    /* Desk Nav End */
+
+
+
+
+
+
+
+
     /* home hamburger icon */
 
 
@@ -237,7 +251,7 @@
         height: 100%;
     }
 
-    .hamburger-logo{
+    .hamburger-logo {
         font-size: 40px;
         font-weight: 800;
         color: orange;
@@ -245,7 +259,7 @@
         padding-top: 10px;
     }
 
-    .hamburger-icon-options-nav-btn{
+    .hamburger-icon-options-nav-btn {
         width: 30%;
         height: 30px;
         margin-left: 16px;
@@ -256,14 +270,14 @@
         margin-top: 20px;
     }
 
-    .hamburger-icon-options-body{
+    .hamburger-icon-options-body {
         width: 100%;
         height: 100%;
         padding: 20px 20px;
         margin: 0 0;
     }
 
-    .hamburger-icon-options-body-container{
+    .hamburger-icon-options-body-container {
         width: 100%;
         height: 100%;
         margin: 0 0;
@@ -272,25 +286,25 @@
 
     /* hamburger icons row */
 
-    .hamburger-icon-options-body-row-men{
+    .hamburger-icon-options-body-row-men {
         width: 100%;
         height: 100%;
         margin: 0 0;
         padding: 0 0;
 
-        display:none;
+        display: none;
     }
 
-    .hamburger-icon-options-body-row-women{
+    .hamburger-icon-options-body-row-women {
         width: 100%;
         height: 100%;
         margin: 0 0;
         padding: 0 0;
 
-        display:none;
+        display: none;
     }
 
-    .hamburger-icon-options-body-row-sneakers{
+    .hamburger-icon-options-body-row-sneakers {
         width: 100%;
         height: 100%;
         margin: 0 0;
@@ -298,40 +312,38 @@
     }
 
 
-    .hamburger-icon-options-nav-btn-clicked{
+    .hamburger-icon-options-nav-btn-clicked {
         background-color: white;
         color: orange;
         border: 1px solid orange;
     }
 
+    .hamburger-carousel-card {
+        width: 120px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(238, 217, 183);
+    }
 
-    
+    .hamburger-carousel-card-img {
+        border-radius: 10px;
+        width: 120px;
+        height: 120px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .hamburger-carousel-card-txt {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
 
 
 
 
 
-
+    /* Hamburger Icon End */
 
 
 
@@ -341,6 +353,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Banner Options */
 
 
 
@@ -393,12 +428,6 @@
         font-weight: 800;
     }
 
-
-
-
-
-
-
     .banhov {
         transform: scale(120%);
         transition-duration: 0.2s;
@@ -410,6 +439,186 @@
         transition-duration: 0.2s;
         transition-timing-function: linear;
     }
+
+
+
+
+
+
+
+
+    /* footer */
+
+    .footer {
+        width: 100%;
+        height: 500px;
+        color: white;
+        background-color: rgb(255, 238, 205);
+        padding: 0 0;
+    }
+
+    .footer-container {
+        margin: 0 0;
+        padding: 0 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-row {
+        margin: 0 0;
+        padding: 30px 20px;
+        width: 70%;
+        height: 100%;
+        margin-left: 15%;
+    }
+
+    .footer-section {
+        width: 25%;
+        height: 65%;
+        padding: 0px 40px;
+    }
+
+    .footer-section-heading {
+        font-size: 25px;
+        text-align: left;
+        color: orange;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .footer-section-ul {
+        list-style: none;
+        padding: 0 0;
+    }
+
+    .footer-section-li {
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .footer-section-li-a {
+        color: rgb(95, 95, 95);
+    }
+
+    .footer-section-li-a:hover {
+        color: orange;
+        text-decoration: none;
+    }
+
+    .brand-logo {
+        font-size: 18px;
+    }
+
+    .footer-section-li-a i {
+        margin-right: 5px;
+        font-size: 22px;
+    }
+
+    .facebook:hover {
+        color: #1877F2;
+    }
+
+    .x:hover {
+        color: black;
+    }
+
+    .instagram:hover {
+        color: #E4405F;
+    }
+
+    .youtube:hover {
+        color: #FF0000;
+    }
+
+    .linkedin:hover {
+        color: #0077B5;
+    }
+
+
+
+
+    .footer-credits {
+        position: relative;
+        width: 86%;
+        height: 66px;
+        padding: 0px 20px;
+        margin-left: 7%;
+    }
+
+
+
+    .footer-payment-credits {
+        position: absolute;
+        left: 0;
+        height: 66px;
+        padding: 10px 10px;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .footer-section-payment-heading {
+        font-size: 15px;
+        text-align: left;
+        color: black;
+        font-weight: 700;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .footer-payment-img {
+        width: 50px;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .vertical-hr {
+        position: absolute;
+        transform: rotate(90deg);
+        margin-left: 516px;
+        margin-top: -18px;
+        width: 20px;
+        border: 1px solid rgb(95, 95, 95);
+
+    }
+
+    .footer-shipping-partners {
+        position: absolute;
+        right: 0;
+        height: 66px;
+        padding: 10px 10px;
+        text-align: right;
+        display: inline-block;
+    }
+
+
+
+
+
+    .footer-copyright {
+        width: 100%;
+        height: 40px;
+        padding: 10px 10px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(95, 95, 95);
+    }
+
+
+
+
+
+
+
+
+    /* Cart Page */
+
+
+
+
+    /* Login Page */
+
 
 
     .login-form {
@@ -450,32 +659,32 @@
         outline: none !important;
     }
 
-    .login-page{
+    .login-page {
         margin: 0 0;
         padding: 0 0;
         width: 100%;
         height: 100vh;
     }
 
-    .login-page-container{
+    .login-page-container {
         margin: 0 0;
         padding: 0 0;
         width: 100%;
         height: 100%;
     }
 
-    .login-page-row{
+    .login-page-row {
         margin: 0 0;
         width: 100%;
         height: 100%;
     }
 
-    .or-text{
+    .or-text {
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
-    .login-form-google-button{
+    .login-form-google-button {
         width: 39%;
         height: 50px;
         margin-left: 5%;
@@ -485,14 +694,14 @@
         background-color: white;
     }
 
-    .login-form-google-button:hover{
+    .login-form-google-button:hover {
         transition: ease-in-out;
         transition-timing-function: linear;
         transition-duration: 100ms;
         transform: scale(105%);
     }
 
-    .login-form-facebook-button{
+    .login-form-facebook-button {
         width: 39%;
         height: 50px;
         margin-left: 5%;
@@ -502,54 +711,28 @@
         background-color: white;
     }
 
-    .login-form-facebook-button:hover{
+    .login-form-facebook-button:hover {
         transition: ease-in-out;
         transition-timing-function: linear;
         transition-duration: 100ms;
         transform: scale(105%);
     }
 
-    .login-form-google-button-img{
+    .login-form-google-button-img {
         width: 30px;
         margin-right: 10px;
     }
 
-    .login-form-facebook-button-img{
+    .login-form-facebook-button-img {
         width: 30px;
         margin-right: 10px;
     }
 
-    .login-page-hr{
+    .login-page-hr {
         border: 1px solid orange;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
