@@ -272,7 +272,7 @@
 
     .hamburger-icon-options-body {
         width: 100%;
-        height: 100%;
+        height: 90%;
         padding: 20px 20px;
         margin: 0 0;
     }
@@ -288,7 +288,7 @@
 
     .hamburger-icon-options-body-row-men {
         width: 100%;
-        height: 100%;
+        height: 16%;
         margin: 0 0;
         padding: 0 0;
 
@@ -297,7 +297,7 @@
 
     .hamburger-icon-options-body-row-women {
         width: 100%;
-        height: 100%;
+        height: 16%;
         margin: 0 0;
         padding: 0 0;
 
@@ -306,7 +306,7 @@
 
     .hamburger-icon-options-body-row-sneakers {
         width: 100%;
-        height: 100%;
+        height: 16%;
         margin: 0 0;
         padding: 0 0;
     }
@@ -338,6 +338,15 @@
         margin-top: 3px;
         margin-bottom: 3px;
     }
+
+
+    .nav-horizontal-hr{
+        border: 1px dashed orange;
+        width: 100%;
+    }
+
+
+    
 
 
 
