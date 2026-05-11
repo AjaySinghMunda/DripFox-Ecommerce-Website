@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DripFox | Sneakers</title>
+    <title>DripFox | Men</title>
 
 
 
@@ -22,6 +22,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 
 
     <link rel="stylesheet" href="owl.carousel.min.css">
@@ -36,10 +41,12 @@
 
 <body>
     <!-- DeskNav 2560px/1920px/1440px -->
+
+
     <section class="desknav">
         <div class="container-fluid">
             <div class="row deskrow">
-                <div class="col-md-1 col-1 ham">
+                <div class="col-md-1 col-1 ham" data-toggle="modal" data-target="#exampleModal">
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <div class="col-md-4 col-4 opts">
@@ -55,28 +62,36 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
                 <div class="col-md-2 col-2 optsicons">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-bag-shopping"></i>
-                    <i class="fa-regular fa-circle-user"></i>
+                    <i class="fa-regular fa-heart" data-toggle="modal" data-target="#exampleModal1"></i>
+                    <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                    <a href="login.html"><i class="fa-regular fa-circle-user"></i></a>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
     <!-- Nav 1024px -->
+
     <section class="desknav1024">
         <div class="container-fluid">
             <div class="row deskrow1024">
-                <div class="col-md-1 ham">
+                <div class="col-1 ham" data-toggle="modal" data-target="#exampleModal">
                     <i class="fa-solid fa-bars"></i>
                 </div>
-                <div class="col-md-5 logo">
-                    <a href="home.html">DripFox</a>
+                <div class="col-5 logo">
+                    <a href="index.html">DripFox</a>
                 </div>
-                <div class="col-md-4 searchbar">
+                <div class="col-4 searchbar">
                     <input type="text" placeholder="Search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <div class="col-md-2 optsicons">
+                <div class="col-2 optsicons">
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-solid fa-bag-shopping"></i>
                     <i class="fa-regular fa-circle-user"></i>
@@ -84,15 +99,22 @@
             </div>
         </div>
     </section>
+
+
+
+
+
     <!-- Nav Mobile -->
+
+
     <section class="mobnav">
         <div class="container-fluid">
             <div class="row mobrow">
-                <div class="col-1 ham">
+                <div class="col-1 ham" data-toggle="modal" data-target="#exampleModal">
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <div class="col-5 logo">
-                    <a href="home.html">DripFox</a>
+                    <a href="index.html">DripFox</a>
                 </div>
                 <div class="col-6 optsicons">
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -103,10 +125,1039 @@
             </div>
         </div>
     </section>
+
     <!-- End Nav -->
 
+    <!-- HamBurger Icon -->
 
-    
+    <div class="modal fade hampop" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="hamburger-logo">DripFox</h1>
+                    <section class="hamburger-icon-options-nav">
+                        <div class="container-fluid hamburger-icon-options-nav-container">
+                            <div class="row hamburger-icon-options-nav-row">
+                                <button
+                                    class="hamburger-icon-options-nav-btn hamburger-icon-options-nav-btn-men">Men</button>
+                                <button
+                                    class="hamburger-icon-options-nav-btn hamburger-icon-options-nav-btn-women">Women</button>
+                                <button
+                                    class="hamburger-icon-options-nav-btn hamburger-icon-options-nav-btn-sneakers">Sneakers</button>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="hamburger-icon-options-body">
+                        <div class="container-fluid hamburger-icon-options-body-container">
+                            <div class="row hamburger-icon-options-body-row-men">
+
+                                <div class="col-lg-12">
+                                    <div class="owl-carousel owl-theme owl-loaded owl-drag" id="hamburger-carousel-men">
+
+
+                                        <div class="owl-stage-outer">
+
+                                            <div class="owl-stage">
+
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_128_c15f1cef5610e76fc8a033c11cdc3fb1.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Spider Man</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_133_18e6892f2b62ae8b71af170fc9b610c97f07a107_original.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Sasuke</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_14_i.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Klassic</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_184_9c07e212015387afa2c72197a0cae85d.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Naruto</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_3_i.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Basket Ball</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_45_i.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Street</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Rovers</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <hr class="nav-horizontal-hr">
+
+                                <div class="col-lg-12">
+                                    <h4 style="text-align: center;color: orange;">FOOTWEAR BY STYLES</h4>
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">Men
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Women
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">Low
+                                                    Tops
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    High
+                                                    Tops
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">Mid
+                                                    Tops
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Classic
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Originals
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Collabs
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Kanso
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    TailRunners
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Slides
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Socks
+                                                    and Care
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+                            </div>
+
+                            <div class="row hamburger-icon-options-body-row-women">
+
+
+
+                                <div class="col-lg-12">
+                                    <div class="owl-carousel owl-theme owl-loaded owl-drag"
+                                        id="hamburger-carousel-women">
+
+
+                                        <div class="owl-stage-outer">
+
+                                            <div class="owl-stage">
+
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_128_c15f1cef5610e76fc8a033c11cdc3fb1.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Spider Man</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_133_18e6892f2b62ae8b71af170fc9b610c97f07a107_original.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Sasuke</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_14_i.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Klassic</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_184_9c07e212015387afa2c72197a0cae85d.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Naruto</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_3_i.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Basket Ball</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_45_i.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Street</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Rovers</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <hr class="nav-horizontal-hr">
+
+                                <div class="col-lg-12">
+                                    <h4 style="text-align: center;color: orange;">FOOTWEAR BY STYLES</h4>
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">Men
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Women
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">Low
+                                                    Tops
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    High
+                                                    Tops
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">Mid
+                                                    Tops
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Classic
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Originals
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Collabs
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Kanso
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    TailRunners
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Slides
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Socks
+                                                    and Care
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="row hamburger-icon-options-body-row-sneakers">
+
+
+
+
+
+
+                                <div class="col-lg-12">
+                                    <div class="owl-carousel owl-theme owl-loaded owl-drag"
+                                        id="hamburger-carousel-sneakers">
+
+
+                                        <div class="owl-stage-outer">
+
+                                            <div class="owl-stage">
+
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_128_c15f1cef5610e76fc8a033c11cdc3fb1.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Spider Man</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_133_18e6892f2b62ae8b71af170fc9b610c97f07a107_original.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Sasuke</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_14_i.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Klassic</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_184_9c07e212015387afa2c72197a0cae85d.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Naruto</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_3_i.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Basket Ball</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_45_i.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Street</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="owl-item" style="width: 120px;">
+                                                    <div class="item">
+                                                        <div class="card hamburger-carousel-card">
+                                                            <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                                class="card-img-top hamburger-carousel-card-img"
+                                                                alt="...">
+                                                            <h6 style="border-radius: 10px;"
+                                                                class="hamburger-carousel-card-txt">Rovers</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <hr class="nav-horizontal-hr">
+
+                                <div class="col-lg-12">
+                                    <h4 style="text-align: center;color: orange;">FOOTWEAR BY STYLES</h4>
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">Men
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Women
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">Low
+                                                    Tops
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    High
+                                                    Tops
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">Mid
+                                                    Tops
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Classic
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Originals
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Collabs
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Kanso
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    TailRunners
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Slides
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="" style="color: black;text-decoration: none;">
+                                        <div class="item"
+                                            style="display: inline-block;margin-right: 18px;margin-bottom: 20px;">
+                                            <div class="card hamburger-carousel-card">
+                                                <img src="img/Sneakers Nav Items/imgi_80_88da3adc41d5484187fa61cce90ff096.png"
+                                                    class="card-img-top hamburger-carousel-card-img" alt="...">
+                                                <h6 style="border-radius: 10px;" class="hamburger-carousel-card-txt">
+                                                    Socks
+                                                    and Care
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade heartpop" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Dil Chahta Hai</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <div class="container-fluid footer-container">
+            <div class="row footer-row">
+                <div class="footer-need-help footer-section">
+                    <h2 class="footer-section-heading">Need Help?</h2>
+                    <ul class="footer-section-ul">
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Contact Us</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Track Order</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Returns & Exchanges</a>
+                        </li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Cancel Order</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">FAQs</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">My Account</a></li>
+                    </ul>
+                </div>
+                <div class="footer-company footer-section">
+                    <h2 class="footer-section-heading">Company</h2>
+                    <ul class="footer-section-ul">
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">About Us</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Our Team</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Investor Relations</a>
+                        </li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Careers</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Gift Vouchers</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Community Initiatives</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-more-info footer-section">
+                    <h2 class="footer-section-heading">More Info</h2>
+                    <ul class="footer-section-ul">
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Shipping Policy</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Privacy Policy</a></li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Terms & Conditions</a>
+                        </li>
+                        <li class="footer-section-li"><a href="#" class="footer-section-li-a">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-connect-with-us footer-section">
+                    <h2 class="footer-section-heading">Connect with Us</h2>
+                    <ul class="footer-section-ul">
+                        <li class="footer-section-li brand-logo"><a href="#" class="footer-section-li-a facebook"><i
+                                    class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+                        <li class="footer-section-li brand-logo"><a href="#" class="footer-section-li-a x"><i
+                                    class="fa-brands fa-square-x-twitter"></i>X</a></li>
+                        <li class="footer-section-li brand-logo"><a href="#" class="footer-section-li-a instagram"><i
+                                    class="fa-brands fa-square-instagram"></i>Instagram</a></li>
+                        <li class="footer-section-li brand-logo"><a href="#" class="footer-section-li-a youtube"><i
+                                    class="fa-brands fa-square-youtube"></i>YouTube</a></li>
+                        <li class="footer-section-li brand-logo"><a href="#" class="footer-section-li-a linkedin"><i
+                                    class="fa-brands fa-square-linkedin"></i>LinkedIn</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-credits">
+
+                    <div class="footer-payment-credits">
+                        <h2 class="footer-section-payment-heading">We Accept:</h2>
+                        <img src="img/Brand Logo Vector/Amazon Pay.png" class="footer-payment-img">
+                        <img src="img/Brand Logo Vector/Cred Club.svg" class="footer-payment-img">
+                        <img src="img/Brand Logo Vector/MasterCard Old.svg" class="footer-payment-img">
+                        <img src="img/Brand Logo Vector/Paytm New.png" class="footer-payment-img">
+                        <img src="img/Brand Logo Vector/PhonePe.png" class="footer-payment-img">
+                        <img src="img/Brand Logo Vector/Visa New 2021.png" class="footer-payment-img">
+
+
+                    </div>
+
+                    <!-- <hr class="vertical-hr"> -->
+
+                    <div class="footer-shipping-partners">
+                        <h2 class="footer-section-payment-heading">Shipping Partners:</h2>
+                        <img src="img/Brand Logo Vector/blue-dart-express-logo-brandlogos.net_59eftdx92.svg"
+                            class="footer-payment-img">
+                        <img src="img/Brand Logo Vector/delhivery-logo-brandlogos.net_uz0an9xix.svg"
+                            class="footer-payment-img">
+                        <img src="img/Brand Logo Vector/idhARvo9BP_1778096244487.png" class="footer-payment-img">
+                        <img src="img/Brand Logo Vector/Xpressbees-logo_brandlogos.net_f29631.svg"
+                            class="footer-payment-img">
+                    </div>
+
+                </div>
+
+
+                <div class="footer-copyright">
+                    <p>&copy; 2026 DripFox. All rights reserved.</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
 
 
 
@@ -173,10 +1224,10 @@
 
 
         $(document).ready(function () {
-            var owl = $('#sai');
+            var owl = $('#hamburger-carousel-sneakers');
             owl.owlCarousel({
                 loop: true,
-                nav: true,
+                nav: false,
                 margin: 10,
                 autoplay: true,
                 autoplayTimeout: 10000,
@@ -192,18 +1243,131 @@
                     },
                     600: {
 
-                        items: 4
+                        items: 3
                     },
                     960: {
 
-                        items: 5
+                        items: 3
                     },
                     1200: {
 
-                        items: 5
+                        items: 4
                     }
                 }
             });
+        });
+
+
+
+
+        $(document).ready(function () {
+            var owl = $('#hamburger-carousel-men');
+            owl.owlCarousel({
+                loop: true,
+                nav: false,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 10000,
+                responsive: {
+
+                    0: {
+
+                        items: 1
+                    },
+                    375: {
+
+                        items: 2
+                    },
+                    600: {
+
+                        items: 3
+                    },
+                    960: {
+
+                        items: 3
+                    },
+                    1200: {
+
+                        items: 4
+                    }
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            var owl = $('#hamburger-carousel-women');
+            owl.owlCarousel({
+                loop: true,
+                nav: false,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 10000,
+                responsive: {
+
+                    0: {
+
+                        items: 1
+                    },
+                    375: {
+
+                        items: 2
+                    },
+                    600: {
+
+                        items: 3
+                    },
+                    960: {
+
+                        items: 3
+                    },
+                    1200: {
+
+                        items: 4
+                    }
+                }
+            });
+        });
+
+
+
+
+
+        // Hamburger Icon
+
+        $(document).ready(function () {
+
+            $(".hamburger-icon-options-nav-btn-sneakers").addClass("hamburger-icon-options-nav-btn-clicked");
+
+            $(".hamburger-icon-options-nav-btn-men").click(function () {
+                $(".hamburger-icon-options-nav-btn-men").addClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-women").removeClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-sneakers").removeClass("hamburger-icon-options-nav-btn-clicked");
+
+                $(".hamburger-icon-options-body-row-men").show();
+                $(".hamburger-icon-options-body-row-women").hide();
+                $(".hamburger-icon-options-body-row-sneakers").hide();
+            });
+
+            $(".hamburger-icon-options-nav-btn-women").click(function () {
+                $(".hamburger-icon-options-nav-btn-women").addClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-men").removeClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-sneakers").removeClass("hamburger-icon-options-nav-btn-clicked");
+
+                $(".hamburger-icon-options-body-row-men").hide();
+                $(".hamburger-icon-options-body-row-women").show();
+                $(".hamburger-icon-options-body-row-sneakers").hide();
+            });
+
+            $(".hamburger-icon-options-nav-btn-sneakers").click(function () {
+                $(".hamburger-icon-options-nav-btn-sneakers").addClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-women").removeClass("hamburger-icon-options-nav-btn-clicked");
+                $(".hamburger-icon-options-nav-btn-men").removeClass("hamburger-icon-options-nav-btn-clicked");
+
+                $(".hamburger-icon-options-body-row-men").hide();
+                $(".hamburger-icon-options-body-row-women").hide();
+                $(".hamburger-icon-options-body-row-sneakers").show();
+            });
+
         });
 
 

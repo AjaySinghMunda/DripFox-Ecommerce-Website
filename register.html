@@ -128,12 +128,24 @@
 
     <!-- LOGIN FORM -->
 
-    <section class="login-page" style="background-image: url(img/DripFox.png);">
+    <section class="register-page" style="background-image: url(img/DripFox.png);">
         <div class="container-fluid login-page-container">
             <div class="row login-page-row">
-                <form class="login-form">
+                <form class="register-form">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="email" class="form-control login-form-input-email" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted"></small>
+                    </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control login-form-input-email" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Mobile Number</label>
                         <input type="email" class="form-control login-form-input-email" id="exampleInputEmail1"
                             aria-describedby="emailHelp">
                         <small id="emailHelp" class="form-text text-muted"></small>
@@ -143,16 +155,22 @@
                         <input type="password" class="form-control login-form-input-password"
                             id="exampleInputPassword1">
                     </div>
-                    <button type="submit" class="btn btn-primary login-form-btn">Login</button>
-                    <div class="text-center or-text">- OR -</div>
-                    <button class="login-form-google-button">
-                        <img src="img/logo/google.png" alt="G" class="login-form-google-button-img">Google
-                    </button>
-                    <button class="login-form-facebook-button">
-                        <img src="img/logo/facebook.png" alt="G" class="login-form-facebook-button-img">Facebook
-                    </button>
-                    <hr class="login-page-hr">
-                    <h5 class="login-form-register-message">New User ? <a class="login-form-register-link" href="register.html">Create Account</a></h5>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Confirm Password</label>
+                        <input type="password" class="form-control login-form-input-password"
+                            id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Choose Gender</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary login-form-btn">Register</button>
+                    <h5 class="login-form-register-message" style="margin-top: 30px;">Already a User ? <a class="login-form-register-link"
+                            href="login.html">Login</a></h5>
                 </form>
             </div>
         </div>
@@ -270,143 +288,3 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-    <script src="owl.carousel.min.js"></script>
-
-
-
-
-    <script>
-
-
-
-
-
-
-
-        $(document).ready(function () {
-            var owl = $('#sai');
-            owl.owlCarousel({
-                loop: true,
-                nav: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 10000,
-                responsive: {
-
-                    0: {
-
-                        items: 1
-                    },
-                    375: {
-
-                        items: 2
-                    },
-                    600: {
-
-                        items: 4
-                    },
-                    960: {
-
-                        items: 5
-                    },
-                    1200: {
-
-                        items: 5
-                    }
-                }
-            });
-        });
-
-
-        $(document).ready(function () {
-            $(".ban .row .bancol .card").mouseover(function () {
-                $(this).addClass("banhov");
-                $(this).removeClass("banhovout");
-            });
-            $(".ban .row .bancol .card").mouseout(function () {
-                $(this).removeClass("banhov");
-                $(this).addClass("banhovout");
-            });
-        });
-
-
-
-
-
-
-
-
-
-
-
-
-    </script>
-
-
-
-
-
-
-
-
-</body>
-
-</html>
