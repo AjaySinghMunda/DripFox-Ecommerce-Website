@@ -37,10 +37,6 @@
         padding-left: 4%;
     }
 
-    .ham i {
-        /* border: 1px solid red; */
-    }
-
     .ham i:hover {
         color: orange;
         cursor: pointer;
@@ -945,9 +941,6 @@
 
 
 
-
-
-
 }
 
 @media (max-width: 1920px) {
@@ -1066,10 +1059,7 @@
 
 
 
-    .optsicons {
-        /* padding-top: 15px; */
-        /* padding-left: 2%; */
-    }
+    
 
     .optsicons i {
         margin-left: 10%;
