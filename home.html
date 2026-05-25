@@ -1151,7 +1151,7 @@
                         Products</h2>
 
                     <a href="product-clicked-page.html" style="color: black;text-decoration: none;">
-                        <div class="card"
+                        <div class="card card-hover-effect"
                             style="width: 18rem;display: inline-block;margin-right: 18px;margin-bottom: 20px;">
                             <img src="img/Men/Men Jackets/imgi_64_06-07-22Studio3_KJ_RL_11-59-12_72_FNMK223_Black_0988_KS_1200x1200.jpg"
                                 class="card-img-top"
@@ -1160,13 +1160,18 @@
                                 <i class="fa-solid fa-star" style="color: gold;display: inline-block;"></i>
                                 <span style="display:inline-block;">4.5</span>
                             </div>
-                            <div class="card-body card-body-edit">
+                            <div class="card-body card-body-without-hover">
                                 <h6 class="card-title card-text-dislay-change">DF Quilted Jacket</h6>
                                 <hr class="card-text-dislay-change">
                                 <h6 class="card-text-dislay-change" style="color: gray;">Men's Jacket</h6>
-                                <button class="card-hover-btn card-hover-btn-buy">Buy Now</button>
-                                <button class="card-hover-btn card-hover-btn-cart"><i class="fa-solid fa-cart-shopping"></i></button>
-                                <button class="card-hover-btn card-hover-btn-wishlist">Add to Wishlist</button><br>
+                                <h5 style="display:inline-block;">&#8377; 799</h5>
+                                <h6 style="text-decoration: line-through;display:inline-block;color: gray;">&#8377; 1399</h6>
+                                <h6 style="color: green;display:inline-block;">42% OFF</h6>
+                            </div>
+                            <div class="card-body card-body-with-hover">
+                                <button class="card-body-buy">Buy Now</button>
+                                <button class="card-body-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                                <button class="card-body-wishlist">Add to Wishlist</button><br>
                                 <h5 style="display:inline-block;">&#8377; 799</h5>
                                 <h6 style="text-decoration: line-through;display:inline-block;color: gray;">&#8377; 1399</h6>
                                 <h6 style="color: green;display:inline-block;">42% OFF</h6>
@@ -1817,6 +1822,19 @@
             $(".ban .row .bancol .card").mouseout(function () {
                 $(this).removeClass("banhov");
                 $(this).addClass("banhovout");
+            });
+        });
+
+
+        $(document).ready(function () {
+            $(".card-hover-effect").mouseover(function () {
+                $(".card-body-without-hover").hide();
+            
+                $(".card-body-with-hover").show();
+            });
+            $(".card-hover-effect").mouseout(function () {
+                $(".card-body-without-hover").show();
+                $(".card-body-with-hover").hide();
             });
         });
 

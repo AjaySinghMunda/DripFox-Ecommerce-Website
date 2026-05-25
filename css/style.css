@@ -902,40 +902,40 @@
         margin-left: -280px;
     }
 
-    .card-text-dislay-change{
-        display:none;
-    }
-
-    
-
-    .card-hover-btn-buy{
-        width: 200px;
-        height: 35px;
-        display: inline-block;
-    }
-
-    .card-hover-btn-cart{
-        width: 40px;
-        height: 35px;
-        display: inline-block;
-    }
-
-    .card-hover-btn-wishlist{
-        width: 240px;
-        height: 35px;
-        margin-top: 10px;
-    }
-
-    .card-hover-btn{
-        background-color: orange;
-        border-radius: 10px;
-        border: none;
+    .card-body-with-hover{
         display: none;
     }
 
-    .card-body-edit{
-        height: 100px;
+    .card-body-wishlist{
+        background-color: rgb(254, 80, 80);
+        border: none;
+        width: 100%;
+        margin-bottom: 18px;
+        color: white;
+
+        border-radius: 10px;
     }
+
+    .card-body-buy{
+        background-color: orange;
+        border: none;
+        width: 75%;
+        margin-bottom: 10px;
+        color: white;
+
+        border-radius: 10px;
+    }
+
+    .card-body-cart{
+        background-color: orange;
+        border: none;
+        width: 23%;
+        margin-bottom: 10px;
+        color: white;
+
+        border-radius: 10px;
+    }
+
 
 
 
