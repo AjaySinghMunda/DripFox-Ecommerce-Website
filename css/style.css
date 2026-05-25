@@ -902,6 +902,43 @@
         margin-left: -280px;
     }
 
+    .card-text-dislay-change{
+        display:none;
+    }
+
+    
+
+    .card-hover-btn-buy{
+        width: 200px;
+        height: 35px;
+        display: inline-block;
+    }
+
+    .card-hover-btn-cart{
+        width: 40px;
+        height: 35px;
+        display: inline-block;
+    }
+
+    .card-hover-btn-wishlist{
+        width: 240px;
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .card-hover-btn{
+        background-color: orange;
+        border-radius: 10px;
+        border: none;
+        display: none;
+    }
+
+    .card-body-edit{
+        height: 100px;
+    }
+
+
+
 
 
 
