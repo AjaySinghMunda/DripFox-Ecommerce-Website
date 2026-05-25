@@ -1053,20 +1053,69 @@
         <div class="container-fluid product-details-container">
             <div class="row product-details-row">
                 <div class="col-md-6 product-details-col">
-                    <img src="img/Men/Men Jackets/imgi_52_1cdbb0b277794970486e85af866493e1.jpg" alt=""
-                        class="product-details-section-img">
-                    <img src="img/Men/Men Jackets/imgi_52_1cdbb0b277794970486e85af866493e1.jpg" alt=""
-                        class="product-details-section-img">
-                    <img src="img/Men/Men Jackets/imgi_52_1cdbb0b277794970486e85af866493e1.jpg" alt=""
-                        class="product-details-section-img">
-                    <img src="img/Men/Men Jackets/imgi_52_1cdbb0b277794970486e85af866493e1.jpg" alt=""
-                        class="product-details-section-img">
+                    <div class="image-display-thumnail">
+                        <div class="mySlides-thumbnail">
+                            <img src="img/Men/Men Jackets/imgi_52_1cdbb0b277794970486e85af866493e1.jpg"
+                                style="width:140px">
+                        </div>
+                        <div class="mySlides-thumbnail">
+                            <img src="img/Men/Men Jackets/imgi_64_06-07-22Studio3_KJ_RL_11-59-12_72_FNMK223_Black_0988_KS_1200x1200.jpg"
+                                style="width:140px">
+                        </div>
+                        <div class="mySlides-thumbnail">
+                            <img src="img/Men/Men Jackets/imgi_91_8140585f4fc80e7fccd3ff0fa2e8a6f7.jpg"
+                                style="width:140px">
+                        </div>
+                        <div class="mySlides-thumbnail">
+                            <img src="img/Men/Men Jackets/imgi_70_d0b33073e9c5cc7ca76dde17453240f3.jpg"
+                                style="width:140px">
+                        </div>
+                        <div class="mySlides-thumbnail">
+                            <img src="img/Men/Men Jackets/imgi_80_d5dc902fc7589157e6f71e8fadc0e619.jpg"
+                                style="width:140px">
+                        </div>
+                        <div class="mySlides-thumbnail">
+                            <img src="img/Men/Men Jackets/imgi_93_AllAroundTheWorldVarsityJacket-Black_mer_1200x1200.jpg"
+                                style="width:140px">
+                        </div>
+                    </div>
+                    <div class="image-display">
+                        <div class="mySlides">
+                            <img src="img/Men/Men Jackets/imgi_52_1cdbb0b277794970486e85af866493e1.jpg"
+                                style="width:380px">
+                        </div>
+                        <div class="mySlides">
+                            <img src="img/Men/Men Jackets/imgi_64_06-07-22Studio3_KJ_RL_11-59-12_72_FNMK223_Black_0988_KS_1200x1200.jpg"
+                                style="width:380px">
+                        </div>
+                        <div class="mySlides">
+                            <img src="img/Men/Men Jackets/imgi_91_8140585f4fc80e7fccd3ff0fa2e8a6f7.jpg"
+                                style="width:380px">
+                        </div>
+                        <div class="mySlides">
+                            <img src="img/Men/Men Jackets/imgi_70_d0b33073e9c5cc7ca76dde17453240f3.jpg"
+                                style="width:380px">
+                        </div>
+                        <div class="mySlides">
+                            <img src="img/Men/Men Jackets/imgi_80_d5dc902fc7589157e6f71e8fadc0e619.jpg"
+                                style="width:380px">
+                        </div>
+                        <div class="mySlides">
+                            <img src="img/Men/Men Jackets/imgi_93_AllAroundTheWorldVarsityJacket-Black_mer_1200x1200.jpg"
+                                style="width:380px">
+                        </div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
                 <div class="col-md-6 product-details-col-info">
                     <h2 class="product-details-col-info-heading">Men's Double Pocket Denim Jacket</h2>
                     <h5 class="product-details-col-info-category">Men Jacket</h5>
                     <hr class="product-details-col-info-hr">
-                    <h4 style="margin: 0 0;">&#8377; 1499</h4>
+                    <h4 style="margin: 0 0;display: inline-block;margin-right: 10px;">&#8377; 799</h4>
+                    <h5 style="display: inline-block;color: gray;text-decoration: line-through;">&#8377; 1399</h5>
+                    <h5 style="color: green;display: inline-block;">40% Off</h5>
                     <h6 class="product-details-col-info-category" style="margin: 0 0;">Price incl. of all taxes</h6>
                     <h5 class="product-details-col-info-size-heading">Please select a size.</h5>
                     <div class="size-categories">
@@ -1080,8 +1129,7 @@
                         <div class="boxes-size-categories">XXXL</div>
                     </div>
                     <h5 class="product-details-col-info-size-heading">Quantity</h5>
-                    <select class="form-control number-select"
-                        id="exampleFormControlSelect1">
+                    <select class="form-control number-select" id="exampleFormControlSelect1">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -1424,6 +1472,73 @@
         });
 
 
+
+        let slideIndex = 0;
+
+        showSlide(slideIndex);
+
+        function plusSlides(n) {
+
+            slideIndex += n;
+
+            showSlide(slideIndex);
+        }
+
+        function showSlide(n) {
+
+            let slides = document.getElementsByClassName("mySlides");
+
+            let thumbnails = document.getElementsByClassName("mySlides-thumbnail");
+
+
+            // LOOP
+            if (n >= slides.length) {
+
+                slideIndex = 0;
+            }
+
+            if (n < 0) {
+
+                slideIndex = slides.length - 1;
+            }
+
+
+            // HIDE ALL SLIDES
+            for (let i = 0; i < slides.length; i++) {
+
+                slides[i].style.display = "none";
+            }
+
+
+            // BLUR ALL THUMBNAILS
+            for (let i = 0; i < thumbnails.length; i++) {
+
+                thumbnails[i].style.filter = "blur(1px)";
+                thumbnails[i].style.opacity = "0.5";
+            }
+
+
+            // SHOW CURRENT SLIDE
+            slides[slideIndex].style.display = "block";
+
+
+            // ACTIVE THUMBNAIL CLEAR
+            thumbnails[slideIndex].style.filter = "blur(0px)";
+            thumbnails[slideIndex].style.opacity = "1";
+        }
+
+
+        let thumbnails = document.getElementsByClassName("mySlides-thumbnail");
+
+        for (let i = 0; i < thumbnails.length; i++) {
+
+            thumbnails[i].addEventListener("click", function () {
+
+                slideIndex = i;
+
+                showSlide(slideIndex);
+            });
+        }
 
 
 
